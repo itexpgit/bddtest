@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="14.522607">
+<testcase classname="Indeed Search Test Feature" name="Indeed Search Scenario" time="14.522607">
+<system-out><![CDATA[Given user is already on Home Page..........................................passed
+When title of Home Page is Indeed...........................................passed
+Then user enters data jobTitle and city.....................................passed
+Then user clicks on FindJobs button.........................................passed
+Then user is on SearchRsults Page...........................................passed
+Then user close the browser.................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

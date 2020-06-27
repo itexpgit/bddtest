@@ -20,7 +20,7 @@ import org.junit.runner.RunWith;
  * @author Uma
  */
 @RunWith(Cucumber.class)
-@CucumberOptions(plugin = {"pretty"} ,
+@CucumberOptions(plugin = {"pretty", "html:target/cucumber-html-report", "json:target/cucumber.json", "junit:target/cucumber.xml", "rerun:target/rerun.txt"} ,
         features="src/main/java/features/",
         dryRun = false
 )

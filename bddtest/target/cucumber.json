@@ -1,0 +1,108 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#----------------------------------"
+      },
+      {
+        "line": 2,
+        "value": "# Empty Cucumber .feature file"
+      },
+      {
+        "line": 3,
+        "value": "#----------------------------------"
+      }
+    ],
+    "line": 4,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Indeed Search Scenario",
+        "description": "",
+        "id": "indeed-search-test-feature;indeed-search-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6367744500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is already on Home Page",
+            "match": {
+              "location": "StepDefinations.user_is_already_on_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 27514100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "title of Home Page is Indeed",
+            "match": {
+              "location": "StepDefinations.title_of_Home_Page_is_Indeed()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 860792300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enters data jobTitle and city",
+            "match": {
+              "location": "StepDefinations.user_enters_data_jobTitle_and_city()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2914478100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user clicks on FindJobs button",
+            "match": {
+              "location": "StepDefinations.user_clicks_on_FindJobs_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5727600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user is on SearchRsults Page",
+            "match": {
+              "location": "StepDefinations.user_is_on_SearchRsults_Page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4346350900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user close the browser",
+            "match": {
+              "location": "StepDefinations.user_close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Indeed Search Test Feature",
+    "description": "",
+    "id": "indeed-search-test-feature",
+    "keyword": "Feature",
+    "uri": "indeed.feature"
+  }
+]
